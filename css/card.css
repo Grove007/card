@@ -1,0 +1,243 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+/*h1, h2, h3, h4, h5, h6{ font-size:100%; }*/ 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; }
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{list-style:none;} 
+a { text-decoration:none;color:#666;} 
+a:hover { text-decoration:underline;color:#FF0700;} 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+
+html{
+    font-size:75px;
+}
+body{
+    margin:0 auto;
+}
+#top,#top_main,#nav,#banner,#main,#foot_box,#footer{
+    /*宽度，水平居中对齐*/
+    width:90%;
+    margin:0 auto;
+    font-size:0.25rem;
+    box-sizing:border-box;
+}
+#top{
+	height:4rem;
+}
+#top img{
+	width:100%;
+	height:4rem;	
+}
+#top_main{
+	height:3.26rem;
+}
+#top_main ul{
+	width:90%;
+	height:1.125rem;
+	margin:.4rem 0 0 3.35%;
+}
+#top_main ul li{
+	float:left;
+	width:16%;
+	height:1.2rem;
+	margin-left:4%;
+	text-align:center;
+}
+#top_main ul li img{
+	display:inline-block;
+	width:90%;
+	height:1.12rem;
+	padding-top:.025rem;
+}
+#top_main ul li img.image{
+	width:35%;
+	height:0.4rem;
+	padding-top:.4rem;
+}
+#top_main dl{
+	width:96%;
+	height:.86rem;
+	text-align:center;
+	margin-left:2%;
+	margin-top:.24rem;
+}
+#top_main dl dt{
+	float:left;
+	width:25%;
+	height:0.45rem;
+	margin-top:.05rem;
+}
+#top_main dl dd{
+	float:left;
+	width:25%;
+	font-size:0.2rem;
+	height:0.3rem;
+}
+#nav{
+	margin:0 auto;
+	height:4.73rem;
+	/*background:#ADEDF0;*/
+}
+#nav #form-group{
+	width:60%;
+	height:2.93rem;
+	/*line-height:220px;*/
+	text-align:center;
+	margin-left:20%;
+	margin-top:.2rem;
+	/*background:#fff;*/
+	position:relative;
+}
+#nav #form-group .lable{
+	/*background:green;*/
+	margin-top:.13rem;
+}
+#nav #form-group .tooShirt{
+	display:inline-block;
+	width:.35rem;
+	height:.5rem;
+	position:absolute;
+	top:-.03rem;
+	left:.69rem;
+}
+#nav #form-group .tooLong{
+	display:inline-block;
+	width:.5rem;
+	height:.4rem;
+	position:absolute;
+	top:.7rem;
+	left:.6rem;
+}
+#nav #form-group .nation{
+	display:inline-block;
+	width:.35rem;
+	height:.5rem;
+}
+#nav #form-group .mation{
+	display:inline-block;
+	width:.5rem;
+	height:.4rem;
+}
+#form-group #phone{
+	width:3.25rem;
+	height:.4rem;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	outline:none;
+	font-size:.2rem;
+	background:#CEE5F7;
+	padding-left:.13rem;
+	margin-top:.13rem;
+	margin-left:.65rem;
+}
+#form-group #code{
+	width:3.25rem;
+	height:.4rem;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	outline:none;
+	font-size:.2rem;
+	background:#CEE5F7;
+	padding-left:.13rem;
+	margin-top:.26rem;
+	margin-left:.65rem;
+}
+
+#nav #btn{
+	width:20%;
+	height:.4rem;
+	outline:none;
+	border:none;
+	font-size:.18rem;
+	color:blue;
+	background:transparent;
+	position:absolute;
+	top:28%;
+	left:66%;
+}
+#nav .btn{
+	width:40%;
+	height:.45rem;
+	outline:none;
+	border:none;
+	border-radius:.24rem;
+	margin:0rem 0 .01rem 0;
+	color:rgb(255, 255, 255); 
+	background:rgb(255, 188, 8);
+}
+#nav p{
+	width:100%;
+	height:.53rem;
+	line-height:.53rem;
+	color:#FEE600;
+	text-align:center;
+	font-size:.16rem;
+}
+
+
+
+
+
+
+
+
+#banner{
+	height:5.3rem;
+	position:relative;
+}
+#banner li{
+	float:left;
+	width:20%;
+	height:2.25rem;
+	line-height:2.4rem;
+	text-align:center;
+	margin-left:3.75%;
+	transition:background 0.3s linear;
+}
+
+#banner li:hover{
+	background-position:-100px 0;
+}
+#banner li img{
+	display:block;
+	width:1.76rem;
+	height:1.76rem;
+	
+}
+#banner li a{
+	text-decoration:none;
+}
+#banner li b{
+	display:block;
+	width:100%;
+	height:.42rem;
+	line-height:.42rem;
+}
+#banner li b:hover{
+	display:block;
+	color:#F6CD95;
+}
+
+#foot_box{
+	height:.65rem;
+	text-align:center;
+	color:#C6C6C6;
+	font-size:.18rem;
+	padding-top:.08rem;
+}
+
+
+
+
+#footer{
+	height:2869px;
+}
